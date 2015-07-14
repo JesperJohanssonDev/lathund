@@ -1,4 +1,4 @@
-angular.module('lathund')
+var lathund = angular.module('lathund')
     .controller('FirstController', 
         function ($scope) {
 
