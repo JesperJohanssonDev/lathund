@@ -1,11 +1,10 @@
 <!doctype html>
-<html data-ng-app="lathund">
+<html>
 
   <head>
 
     <title>Lathund</title>
-
-    <script src="scripts/controllers/MainController.js"></script>
+    <meta charset="UTF-8">
 
     <!-- LIBS -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
@@ -14,10 +13,90 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 
+    <link rel="stylesheet" href="css/main.css">
+    <script src="scripts/controllers/MainController.js"></script>
+
   </head>
 
-  <body>
+  <body ng-app="myApp">
+    <div ng-controller="MainController">
+      <div class="main">
+        <div class="container-fluid">
+          
+          <div class="row main-menu">
+            <div class="col-xs-10">
+              <div class="main-menu-boxes" style="border-top: 3px solid #0099FF;">
+                <div clas="container-fluid">
+                  <div class="row margin-fix">
+                    <div class="col-xs-8 ">
+                      <div class="main-menu-boxes-title" style="color: #0099FF;">Spår</div>
+                      <div class="main-menu-boxes-info">Max poäng: 100 <br> För uppflyttning: 100</div>
+                    </div>
+                    <div class="col-xs-3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <div class="row main-menu" style="margin-top: 30px;">
+            <div class="col-xs-10">
+              <div class="main-menu-boxes" style="border-top: 3px solid #00FF00;">
+                <div clas="container-fluid">
+                  <div class="row margin-fix">
+                    <div class="col-xs-8 ">
+                      <div class="main-menu-boxes-title" style="color: #00FF00;">Sök</div>
+                      <div class="main-menu-boxes-info">Max poäng: 100 <br> För uppflyttning: 100</div>
+                    </div>
+                    <div class="col-xs-3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row main-menu" style="margin-top: 30px;">
+            <div class="col-xs-10">
+              <div class="main-menu-boxes" style="border-top: 3px solid #CC00FF;">
+                <div clas="container-fluid">
+                  <div class="row margin-fix">
+                    <div class="col-xs-8 ">
+                      <div class="main-menu-boxes-title" style="color: #CC00FF;">Rapport</div>
+                      <div class="main-menu-boxes-info">Max poäng: 100 <br> För uppflyttning: 100</div>
+                    </div>
+                    <div class="col-xs-3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row main-menu" style="margin-top: 30px;">
+            <div class="col-xs-10">
+              <div class="main-menu-boxes" style="border-top: 3px solid #FF0000;">
+                <div clas="container-fluid">
+                  <div class="row margin-fix">
+                    <div class="col-xs-8 ">
+                      <div class="main-menu-boxes-title" style="color: #FF0000;">Skydd</div>
+                      <div class="main-menu-boxes-info">Max poäng: 100 <br> För uppflyttning: 100</div>
+                    </div>
+                    <div class="col-xs-3">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
   </body>
 
 </html>

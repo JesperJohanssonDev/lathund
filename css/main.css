@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
+body {
+	background: #FFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.margin-fix {
+	margin-left: 0px;
+}
+
+.margin-top-fix {
+	margin-top: 30px;
+}
+
+.main {
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.main-menu {
+	padding-top: 10px;
+	margin: auto;
+}
+
+.main-menu-boxes {
+	margin: auto;
+	width: 300px;
+	height: 135px;
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(201,201,201,1);
+	-moz-box-shadow: 0px 5px 5px 0px rgba(201,201,201,1);
+	box-shadow: 0px 5px 5px 0px rgba(201,201,201,1);
+}
+
+.main-menu-boxes-title {
+	font-size: 25px;
+}
+
+.main-menu-boxes-info {
+	margin-top: 45px;
+	font-size: 12px;
+	color: #666;
+}

@@ -1,7 +1,7 @@
-var lathund = angular.module('lathund')
-    .controller('FirstController', 
-        function ($scope) {
+var myApp = angular.module('myApp',[]);
 
-        $scope.test = "TEST";	
+myApp.controller('MainController', ['$scope', function($scope) {
+  
 
-});
+  
+}]);
